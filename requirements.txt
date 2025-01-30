@@ -1,0 +1,7 @@
+pandas >= 2.2.3
+matplot >= 0.1.9
+scikit-learn == 1.6.1
+seaborn == 0.13.2
+geopy == 2.4.1
+wordcloud == 1.9.4
+xgboost == 2.1.3
