@@ -21,6 +21,28 @@ Este repositório contém um modelo de previsão de preços de aluguéis. O proj
    pip install -r requirements.txt # Pode ser realizado em um bloco no notebook
    ```
 
+## Instalar o Jupyter e o IPython Kernel
+
+Desenvolvi esse modelo no VS code, portanto é interessante que adicione o kernel do jupyter para conseguir usar o notebook
+
+### Linux 
+No terminal do WSL, com o ambiente virtual ativado, instale o Jupyter e o ipykernel:
+
+```bash
+pip install jupyter ipykernel
+```
+
+### Adicionar o ambiente virtual como um kernel do Jupyter
+Para que o VS Code reconheça o ambiente virtual como um kernel do Jupyter, execute:
+
+```bash
+python -m ipykernel install --user --name=venv --display-name "Python (venv)"
+```
+
+Substitua venv pelo nome do seu ambiente virtual. O --display-name é o nome que aparecerá no VS Code para selecionar o kernel.
+Instale as extensões recomendadas do Jupyter
+
+
 ## Como Utilizar
 
 ### 1. Executar a Análise Exploratória
